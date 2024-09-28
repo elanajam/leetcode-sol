@@ -1,0 +1,10 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        
+        leftToRight = str(x)
+        rightToLeft = leftToRight[::-1]
+
+        if leftToRight == rightToLeft:
+            return True
+
+        return False
